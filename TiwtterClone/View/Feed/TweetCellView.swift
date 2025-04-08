@@ -53,26 +53,26 @@ struct TweetCellView: View {
                     Image("Comments")
                         .resizable()
                         .frame(width: 16,height: 16)
-                        .foregroundColor(.gray)
-                })
+                        
+                }).foregroundColor(.gray)
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     Image("Retweet")
                         .resizable()
                         .frame(width: 18,height: 14)
-                        .foregroundColor(.gray)
-                })
+                        
+                }).foregroundColor(.gray)
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     Image("love")
                         .resizable()
                         .frame(width: 16,height: 16)
-                        .foregroundColor(.gray)
-                })
+                        
+                }).foregroundColor(.gray)
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     Image("upload")
                         .resizable()
+                        .renderingMode(.template )
                         .frame(width: 18,height: 15)
-                        .foregroundColor(.gray)
-                })
+                }).foregroundColor(.gray)
             })
             .padding(.top,4) 
         }
