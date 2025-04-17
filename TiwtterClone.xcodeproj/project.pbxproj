@@ -23,6 +23,7 @@
 		C0A86B192DB1119A0078D136 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B182DB1119A0078D136 /* SearchBarView.swift */; };
 		C0A86B1B2DB119830078D136 /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1A2DB119830078D136 /* SearchUserCell.swift */; };
 		C0A86B1D2DB11D520078D136 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1C2DB11D520078D136 /* Extensions.swift */; };
+		C0A86B1F2DB121DD0078D136 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1E2DB121DD0078D136 /* NotificationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		C0A86B182DB1119A0078D136 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		C0A86B1A2DB119830078D136 /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
 		C0A86B1C2DB11D520078D136 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C0A86B1E2DB121DD0078D136 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				C0A86B0D2D8571CD0078D136 /* NotificationsView.swift */,
+				C0A86B1E2DB121DD0078D136 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				C0A86B122D8710E50078D136 /* MultilineTextField.swift in Sources */,
 				C0A86AE62D85659F0078D136 /* TiwtterCloneApp.swift in Sources */,
 				C0A86B0E2D8571CD0078D136 /* NotificationsView.swift in Sources */,
+				C0A86B1F2DB121DD0078D136 /* NotificationCell.swift in Sources */,
 				C0A86B1D2DB11D520078D136 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
