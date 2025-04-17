@@ -21,6 +21,8 @@
 		C0A86B142DA537210078D136 /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B132DA537210078D136 /* TweetCellView.swift */; };
 		C0A86B162DB1094A0078D136 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B152DB1094A0078D136 /* SearchCell.swift */; };
 		C0A86B192DB1119A0078D136 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B182DB1119A0078D136 /* SearchBarView.swift */; };
+		C0A86B1B2DB119830078D136 /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1A2DB119830078D136 /* SearchUserCell.swift */; };
+		C0A86B1D2DB11D520078D136 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1C2DB11D520078D136 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		C0A86B132DA537210078D136 /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
 		C0A86B152DB1094A0078D136 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		C0A86B182DB1119A0078D136 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		C0A86B1A2DB119830078D136 /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
+		C0A86B1C2DB11D520078D136 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 		C0A86AF72D856B820078D136 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C0A86B1C2DB11D520078D136 /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			children = (
 				C0A86B092D8571260078D136 /* SearchView.swift */,
 				C0A86B152DB1094A0078D136 /* SearchCell.swift */,
+				C0A86B1A2DB119830078D136 /* SearchUserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 				C0A86B162DB1094A0078D136 /* SearchCell.swift in Sources */,
 				C0A86AE82D85659F0078D136 /* ContentView.swift in Sources */,
 				C0A86B102D870F880078D136 /* CreateTweetView.swift in Sources */,
+				C0A86B1B2DB119830078D136 /* SearchUserCell.swift in Sources */,
 				C0A86B192DB1119A0078D136 /* SearchBarView.swift in Sources */,
 				C0A86B042D8570E30078D136 /* Feed.swift in Sources */,
 				C0A86B022D856C680078D136 /* Home.swift in Sources */,
@@ -291,6 +298,7 @@
 				C0A86B122D8710E50078D136 /* MultilineTextField.swift in Sources */,
 				C0A86AE62D85659F0078D136 /* TiwtterCloneApp.swift in Sources */,
 				C0A86B0E2D8571CD0078D136 /* NotificationsView.swift in Sources */,
+				C0A86B1D2DB11D520078D136 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
