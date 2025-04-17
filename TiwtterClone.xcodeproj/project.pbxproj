@@ -19,6 +19,8 @@
 		C0A86B102D870F880078D136 /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B0F2D870F880078D136 /* CreateTweetView.swift */; };
 		C0A86B122D8710E50078D136 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B112D8710E50078D136 /* MultilineTextField.swift */; };
 		C0A86B142DA537210078D136 /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B132DA537210078D136 /* TweetCellView.swift */; };
+		C0A86B162DB1094A0078D136 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B152DB1094A0078D136 /* SearchCell.swift */; };
+		C0A86B192DB1119A0078D136 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B182DB1119A0078D136 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		C0A86B0F2D870F880078D136 /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		C0A86B112D8710E50078D136 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		C0A86B132DA537210078D136 /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
+		C0A86B152DB1094A0078D136 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		C0A86B182DB1119A0078D136 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				C0A86B112D8710E50078D136 /* MultilineTextField.swift */,
+				C0A86B182DB1119A0078D136 /* SearchBarView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				C0A86B092D8571260078D136 /* SearchView.swift */,
+				C0A86B152DB1094A0078D136 /* SearchCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -274,8 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A86B142DA537210078D136 /* TweetCellView.swift in Sources */,
+				C0A86B162DB1094A0078D136 /* SearchCell.swift in Sources */,
 				C0A86AE82D85659F0078D136 /* ContentView.swift in Sources */,
 				C0A86B102D870F880078D136 /* CreateTweetView.swift in Sources */,
+				C0A86B192DB1119A0078D136 /* SearchBarView.swift in Sources */,
 				C0A86B042D8570E30078D136 /* Feed.swift in Sources */,
 				C0A86B022D856C680078D136 /* Home.swift in Sources */,
 				C0A86B0C2D85713E0078D136 /* MessagesView.swift in Sources */,
