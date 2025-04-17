@@ -11,7 +11,7 @@ import SwiftUI
 struct TiwtterCloneApp: App {
     var body: some Scene {
         WindowGroup {
-            Home()
+            MainView()
         }
     }
 }

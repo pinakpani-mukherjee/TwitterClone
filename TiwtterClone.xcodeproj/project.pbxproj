@@ -25,6 +25,8 @@
 		C0A86B1D2DB11D520078D136 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1C2DB11D520078D136 /* Extensions.swift */; };
 		C0A86B1F2DB121DD0078D136 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1E2DB121DD0078D136 /* NotificationCell.swift */; };
 		C0A86B212DB1252D0078D136 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B202DB1252D0078D136 /* MessageCell.swift */; };
+		C0A86B232DB128580078D136 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B222DB128580078D136 /* TopBar.swift */; };
+		C0A86B252DB12A260078D136 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B242DB12A260078D136 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		C0A86B1C2DB11D520078D136 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C0A86B1E2DB121DD0078D136 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		C0A86B202DB1252D0078D136 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		C0A86B222DB128580078D136 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		C0A86B242DB12A260078D136 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				C0A86B012D856C680078D136 /* Home.swift */,
+				C0A86B222DB128580078D136 /* TopBar.swift */,
+				C0A86B242DB12A260078D136 /* MainView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A86B142DA537210078D136 /* TweetCellView.swift in Sources */,
+				C0A86B252DB12A260078D136 /* MainView.swift in Sources */,
 				C0A86B212DB1252D0078D136 /* MessageCell.swift in Sources */,
 				C0A86B162DB1094A0078D136 /* SearchCell.swift in Sources */,
 				C0A86AE82D85659F0078D136 /* ContentView.swift in Sources */,
@@ -300,6 +307,7 @@
 				C0A86B192DB1119A0078D136 /* SearchBarView.swift in Sources */,
 				C0A86B042D8570E30078D136 /* Feed.swift in Sources */,
 				C0A86B022D856C680078D136 /* Home.swift in Sources */,
+				C0A86B232DB128580078D136 /* TopBar.swift in Sources */,
 				C0A86B0C2D85713E0078D136 /* MessagesView.swift in Sources */,
 				C0A86B0A2D8571260078D136 /* SearchView.swift in Sources */,
 				C0A86B122D8710E50078D136 /* MultilineTextField.swift in Sources */,
