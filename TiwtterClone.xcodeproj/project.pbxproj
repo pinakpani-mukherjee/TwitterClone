@@ -24,6 +24,7 @@
 		C0A86B1B2DB119830078D136 /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1A2DB119830078D136 /* SearchUserCell.swift */; };
 		C0A86B1D2DB11D520078D136 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1C2DB11D520078D136 /* Extensions.swift */; };
 		C0A86B1F2DB121DD0078D136 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B1E2DB121DD0078D136 /* NotificationCell.swift */; };
+		C0A86B212DB1252D0078D136 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B202DB1252D0078D136 /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		C0A86B1A2DB119830078D136 /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
 		C0A86B1C2DB11D520078D136 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C0A86B1E2DB121DD0078D136 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		C0A86B202DB1252D0078D136 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				C0A86B0B2D85713E0078D136 /* MessagesView.swift */,
+				C0A86B202DB1252D0078D136 /* MessageCell.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A86B142DA537210078D136 /* TweetCellView.swift in Sources */,
+				C0A86B212DB1252D0078D136 /* MessageCell.swift in Sources */,
 				C0A86B162DB1094A0078D136 /* SearchCell.swift in Sources */,
 				C0A86AE82D85659F0078D136 /* ContentView.swift in Sources */,
 				C0A86B102D870F880078D136 /* CreateTweetView.swift in Sources */,
