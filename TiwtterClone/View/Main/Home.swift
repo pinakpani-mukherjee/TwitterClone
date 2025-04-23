@@ -18,7 +18,9 @@ struct Home: View {
                 TabView {
                     Feed().onTapGesture {
                         self.selectedIndex = 0
-                    }.tabItem { 
+                    }
+                    .navigationBarHidden(true)
+                    .tabItem {
                         if (selectedIndex == 0) {
                             Image("Home")
                                 .renderingMode(.template)
@@ -31,7 +33,9 @@ struct Home: View {
                     .tag(0)
                     SearchView().onTapGesture {
                         self.selectedIndex = 1
-                    }.tabItem {
+                    }
+                    .navigationBarHidden(true)
+                    .tabItem {
                         if (selectedIndex != 1) {
                             Image("Search")
                                 .renderingMode(.template)
@@ -44,7 +48,9 @@ struct Home: View {
                     .tag(1)
                     NotificationsView().onTapGesture {
                         self.selectedIndex = 2
-                    }.tabItem {
+                    }
+                    .navigationBarHidden(true)
+                    .tabItem {
                         if (selectedIndex != 2) {
                             Image("Notifications")
                                 .renderingMode(.template)
@@ -57,7 +63,9 @@ struct Home: View {
                     .tag(2)
                     MessagesView().onTapGesture {
                         self.selectedIndex = 3
-                    }.tabItem {
+                    }
+                    .navigationBarHidden(true)
+                    .tabItem {
                         if (selectedIndex != 3) {
                             Image("Messages")
                                 .renderingMode(.template)
