@@ -33,6 +33,11 @@
 		C0A86B2D2DB9F5A90078D136 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B2C2DB9F5A90078D136 /* UserProfile.swift */; };
 		C0A86B2F2DB9F8290078D136 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B2E2DB9F8290078D136 /* BlurView.swift */; };
 		C0A86B312DBA0A560078D136 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B302DBA0A560078D136 /* TabButton.swift */; };
+		C0A86B332DBA8DAC0078D136 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B322DBA8DAC0078D136 /* WelcomeView.swift */; };
+		C0A86B352DBA969F0078D136 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B342DBA969F0078D136 /* RegisterView.swift */; };
+		C0A86B372DBA97BE0078D136 /* CustomAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B362DBA97BE0078D136 /* CustomAuthTextField.swift */; };
+		C0A86B392DBA993B0078D136 /* SecureAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B382DBA993B0078D136 /* SecureAuthTextField.swift */; };
+		C0A86B3B2DBA9B490078D136 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B3A2DBA9B490078D136 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +68,11 @@
 		C0A86B2C2DB9F5A90078D136 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		C0A86B2E2DB9F8290078D136 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		C0A86B302DBA0A560078D136 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		C0A86B322DBA8DAC0078D136 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C0A86B342DBA969F0078D136 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C0A86B362DBA97BE0078D136 /* CustomAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextField.swift; sourceTree = "<group>"; };
+		C0A86B382DBA993B0078D136 /* SecureAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureAuthTextField.swift; sourceTree = "<group>"; };
+		C0A86B3A2DBA9B490078D136 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +196,8 @@
 				C0A86B282DB8E18D0078D136 /* FollowView.swift */,
 				C0A86B2A2DB8E4230078D136 /* MenuButton.swift */,
 				C0A86B302DBA0A560078D136 /* TabButton.swift */,
+				C0A86B362DBA97BE0078D136 /* CustomAuthTextField.swift */,
+				C0A86B382DBA993B0078D136 /* SecureAuthTextField.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -193,6 +205,9 @@
 		C0A86AFB2D856BBE0078D136 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				C0A86B322DBA8DAC0078D136 /* WelcomeView.swift */,
+				C0A86B342DBA969F0078D136 /* RegisterView.swift */,
+				C0A86B3A2DBA9B490078D136 /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -316,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A86B142DA537210078D136 /* TweetCellView.swift in Sources */,
+				C0A86B3B2DBA9B490078D136 /* LoginView.swift in Sources */,
 				C0A86B252DB12A260078D136 /* MainView.swift in Sources */,
 				C0A86B2F2DB9F8290078D136 /* BlurView.swift in Sources */,
 				C0A86B2B2DB8E4230078D136 /* MenuButton.swift in Sources */,
@@ -330,11 +346,15 @@
 				C0A86B022D856C680078D136 /* Home.swift in Sources */,
 				C0A86B232DB128580078D136 /* TopBar.swift in Sources */,
 				C0A86B0C2D85713E0078D136 /* MessagesView.swift in Sources */,
+				C0A86B372DBA97BE0078D136 /* CustomAuthTextField.swift in Sources */,
+				C0A86B352DBA969F0078D136 /* RegisterView.swift in Sources */,
 				C0A86B292DB8E18E0078D136 /* FollowView.swift in Sources */,
 				C0A86B0A2D8571260078D136 /* SearchView.swift in Sources */,
 				C0A86B2D2DB9F5A90078D136 /* UserProfile.swift in Sources */,
 				C0A86B122D8710E50078D136 /* MultilineTextField.swift in Sources */,
 				C0A86AE62D85659F0078D136 /* TiwtterCloneApp.swift in Sources */,
+				C0A86B392DBA993B0078D136 /* SecureAuthTextField.swift in Sources */,
+				C0A86B332DBA8DAC0078D136 /* WelcomeView.swift in Sources */,
 				C0A86B0E2D8571CD0078D136 /* NotificationsView.swift in Sources */,
 				C0A86B312DBA0A560078D136 /* TabButton.swift in Sources */,
 				C0A86B1F2DB121DD0078D136 /* NotificationCell.swift in Sources */,
