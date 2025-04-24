@@ -30,6 +30,9 @@
 		C0A86B272DB8E01C0078D136 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B262DB8E01C0078D136 /* SlideMenu.swift */; };
 		C0A86B292DB8E18E0078D136 /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B282DB8E18D0078D136 /* FollowView.swift */; };
 		C0A86B2B2DB8E4230078D136 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B2A2DB8E4230078D136 /* MenuButton.swift */; };
+		C0A86B2D2DB9F5A90078D136 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B2C2DB9F5A90078D136 /* UserProfile.swift */; };
+		C0A86B2F2DB9F8290078D136 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B2E2DB9F8290078D136 /* BlurView.swift */; };
+		C0A86B312DBA0A560078D136 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A86B302DBA0A560078D136 /* TabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,9 @@
 		C0A86B262DB8E01C0078D136 /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
 		C0A86B282DB8E18D0078D136 /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
 		C0A86B2A2DB8E4230078D136 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		C0A86B2C2DB9F5A90078D136 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		C0A86B2E2DB9F8290078D136 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		C0A86B302DBA0A560078D136 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,8 @@
 		C0A86AF82D856B9D0078D136 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				C0A86B2C2DB9F5A90078D136 /* UserProfile.swift */,
+				C0A86B2E2DB9F8290078D136 /* BlurView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -177,6 +185,7 @@
 				C0A86B182DB1119A0078D136 /* SearchBarView.swift */,
 				C0A86B282DB8E18D0078D136 /* FollowView.swift */,
 				C0A86B2A2DB8E4230078D136 /* MenuButton.swift */,
+				C0A86B302DBA0A560078D136 /* TabButton.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -308,6 +317,7 @@
 			files = (
 				C0A86B142DA537210078D136 /* TweetCellView.swift in Sources */,
 				C0A86B252DB12A260078D136 /* MainView.swift in Sources */,
+				C0A86B2F2DB9F8290078D136 /* BlurView.swift in Sources */,
 				C0A86B2B2DB8E4230078D136 /* MenuButton.swift in Sources */,
 				C0A86B212DB1252D0078D136 /* MessageCell.swift in Sources */,
 				C0A86B162DB1094A0078D136 /* SearchCell.swift in Sources */,
@@ -322,9 +332,11 @@
 				C0A86B0C2D85713E0078D136 /* MessagesView.swift in Sources */,
 				C0A86B292DB8E18E0078D136 /* FollowView.swift in Sources */,
 				C0A86B0A2D8571260078D136 /* SearchView.swift in Sources */,
+				C0A86B2D2DB9F5A90078D136 /* UserProfile.swift in Sources */,
 				C0A86B122D8710E50078D136 /* MultilineTextField.swift in Sources */,
 				C0A86AE62D85659F0078D136 /* TiwtterCloneApp.swift in Sources */,
 				C0A86B0E2D8571CD0078D136 /* NotificationsView.swift in Sources */,
+				C0A86B312DBA0A560078D136 /* TabButton.swift in Sources */,
 				C0A86B1F2DB121DD0078D136 /* NotificationCell.swift in Sources */,
 				C0A86B1D2DB11D520078D136 /* Extensions.swift in Sources */,
 			);
